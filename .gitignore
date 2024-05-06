@@ -1,0 +1,5 @@
+stores
+
+pycache
+.env
+__pycache__
