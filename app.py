@@ -106,11 +106,6 @@ def consultar(update, prompt):
 
 # Función para ejecutar tu proyecto de inteligencia artificial
 def ejecutar_proyecto(input):
-    # Aquí ejecuta tu proyecto con la pregunta proporcionada y devuelve la respuesta
-    # Puedes llamar a la función o método que tengas para responder preguntas en tu proyecto
-    # Ejemplo:
-    # respuesta = model.predict(pregunta)
-    # return respuesta
     query = input
     output = chain.invoke(query)
     return output
